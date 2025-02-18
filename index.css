@@ -263,21 +263,6 @@ footer {
 /* Responsividade */
 @media (max-width: 768px) {
      
-    /* Estilo para o fundo com transição de imagens */
- @keyframes changeBackground {
-    0% {
-         background-image: url('fotosjj/D3S8693.png');
-     }
-     33.33% {
-         background-image: url('fotosjj/IMG_3594.png'); /* Substitua pelo URL da segunda imagem */
-     } 
-     66.66% {
-         background-image: url('fotosjj/D3S8702.png'); /* Substitua pelo URL da terceira imagem */
-     }
-     100% {
-         background-image: url('fotosjj/D3S8693.png');
-     }
- }
  
  .imgfundo {
      position: relative;
