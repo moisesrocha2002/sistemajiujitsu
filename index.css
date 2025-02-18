@@ -17,23 +17,23 @@ body {
 /* Estilo para o fundo com transição de imagens */
  @keyframes changeBackground {
    0% {
-        background-image: url('fotosjj/_D3S8693.jpg');
+        background-image: url('https://1.bp.blogspot.com/-PAKqGa0DD8c/XrMSv7THqHI/AAAAAAAAE9Y/-YgoAvaFfX82RazUiWnnxGlzTyaTrPB_QCK4BGAsYHg/w640-h414/rafael-mendes-jiu-jitsu.jpg');
     }
     33.33% {
-        background-image: url('fotosjj/_D3S8702.jpg'); /* Substitua pelo URL da segunda imagem */
+        background-image: url('https://tatame.com.br/wp-content/uploads/2022/01/rafael-mendes.jpg'); /* Substitua pelo URL da segunda imagem */
     } 
     66.66% {
-        background-image: url('fotosjj/IMG_3594.JPG'); /* Substitua pelo URL da terceira imagem */
+        background-image: url('https://www.graciemag.com/wp-content/uploads/2016/05/rafa2.jpg'); /* Substitua pelo URL da terceira imagem */
     }
     100% {
-        background-image: url('fotosjj/_D3S8693.jpg');
+        background-image: url('https://1.bp.blogspot.com/-PAKqGa0DD8c/XrMSv7THqHI/AAAAAAAAE9Y/-YgoAvaFfX82RazUiWnnxGlzTyaTrPB_QCK4BGAsYHg/w640-h414/rafael-mendes-jiu-jitsu.jpg');
     }
 }
 
 .imgfundo {
     position: relative;
     height: 100vh; /* Ajuste a altura conforme necessário */
-    background: url('fotosjj/_D3S8693.jpg') no-repeat center center/cover;
+    background: url('https://1.bp.blogspot.com/-PAKqGa0DD8c/XrMSv7THqHI/AAAAAAAAE9Y/-YgoAvaFfX82RazUiWnnxGlzTyaTrPB_QCK4BGAsYHg/w640-h414/rafael-mendes-jiu-jitsu.jpg') no-repeat center center/cover;
     animation: changeBackground 15s infinite; /* Duração da animação e repetição */
     transition: background-image 2s ease-in-out; /* Adiciona transição suave */ 
     
