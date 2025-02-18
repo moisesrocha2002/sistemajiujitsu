@@ -15,29 +15,30 @@ body {
 
 
 /* Estilo para o fundo com transição de imagens */
+ 
  @keyframes changeBackground {
-   0% {
-        background-image: url('fotosjj/D3S8693.png');
-    }
-    33.33% {
-        background-image: url('fotosjj/IMG_3594.png'); /* Substitua pelo URL da segunda imagem */
-    } 
-    66.66% {
-        background-image: url('fotosjj/D3S8702.png'); /* Substitua pelo URL da terceira imagem */
-    }
-    100% {
-        background-image: url('fotosjj/D3S8693.png');
-    }
-}
-
-.imgfundo {
-    position: relative;
-    height: 100vh; /* Ajuste a altura conforme necessário */
-    background: url('fotosjj/D3S8693.png') no-repeat center center/cover;
-    animation: changeBackground 15s infinite; /* Duração da animação e repetição */
-    transition: background-image 1s ease-in-out; /* Adiciona transição suave */ 
-    
-}
+    0% {
+         background-image: url('fotosjj/D3S8693.png');
+     }
+     33.33% {
+         background-image: url('fotosjj/IMG_3594.png'); /* Substitua pelo URL da segunda imagem */
+     } 
+     66.66% {
+         background-image: url('fotosjj/D3S8702.png'); /* Substitua pelo URL da terceira imagem */
+     }
+     100% {
+         background-image: url('fotosjj/D3S8693.png');
+     }
+ }
+ 
+ .imgfundo {
+     position: relative;
+     height: 100vh; /* Ajuste a altura conforme necessário */
+     background: url('fotosjj/D3S8693.png') no-repeat center center/cover;
+     animation: changeBackground 15s infinite; /* Duração da animação e repetição */
+     transition: background-image 1s ease-in-out; /* Adiciona transição suave */ 
+     
+ }
 
 
 
@@ -261,7 +262,31 @@ footer {
 
 /* Responsividade */
 @media (max-width: 768px) {
-  
+     
+    /* Estilo para o fundo com transição de imagens */
+ @keyframes changeBackground {
+    0% {
+         background-image: url('fotosjj/D3S8693.png');
+     }
+     33.33% {
+         background-image: url('fotosjj/IMG_3594.png'); /* Substitua pelo URL da segunda imagem */
+     } 
+     66.66% {
+         background-image: url('fotosjj/D3S8702.png'); /* Substitua pelo URL da terceira imagem */
+     }
+     100% {
+         background-image: url('fotosjj/D3S8693.png');
+     }
+ }
+ 
+ .imgfundo {
+     position: relative;
+     height: 100vh; /* Ajuste a altura conforme necessário */
+     background: url('fotosjj/D3S8693.png') no-repeat center center/cover;
+     animation: changeBackground 15s infinite; /* Duração da animação e repetição */
+     transition: background-image 1s ease-in-out; /* Adiciona transição suave */ 
+     
+ }
 
     .sobre-content {
         flex-direction: column;
@@ -275,10 +300,10 @@ footer {
         font-size: 1rem;
     }
 
-    .fa-instagram {
+     .fa-instagram {
         font-size: 24px;
         background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
