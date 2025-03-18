@@ -13,7 +13,7 @@ h1{
 .container {
   display:flex;
   flex-direction:row;
-  margin-top: 300px;
+  margin-bottom: 300px;
   margin: 0 auto;
   height:600px;
   width:50%;
