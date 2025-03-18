@@ -1,0 +1,76 @@
+body {
+  font-family: 'DIN Next', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+ margin: 80px;
+}
+
+h1{
+  font-size:45px;
+  font-color:
+}
+.container {
+  display:flex;
+  flex-direction:row;
+  margin: 0 auto;
+  height:600px;
+  width:50%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.ajuste{   
+ width: 400px;
+ height: 600px;
+ background-size: cover; /* ou contain, dependendo do efeito desejado */
+ background-position: center; /* Centraliza a imagem no container */
+ background-image: url('https://www.graciemag.com/wp-content/uploads/2015/06/IMG_6398-512x768.jpg');
+  border-radius: 10px 0px 0px 10px;
+}
+
+.cadastro{
+  margin:0 auto;  
+}
+
+ input{
+  padding:5px;
+  width:250px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #cc5200;
+}
+
+a{
+  text-decoration:none;
+  color:#000000;
+}
+
+a:visited{
+  color:purple;
+}
+
+h5{
+margin-bottom:3px;  
+}
+
+select{
+  margin-bottom:15px;
+}
+
+input.data{
+  width:155px;
+}
